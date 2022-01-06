@@ -3,20 +3,111 @@ body {
     padding: 0;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
+    img {
+        width: 100%;
+    }
 }
 
-.hero-section {}
 
-.inner-hero-section {}
+/** HERO SECTION **/
 
-.hero-col-left {}
+section.hero-section {
+    width: 100%;
+}
 
-.hero-col-left .hero-title-top {}
+.inner-hero-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
 
-.hero-col-left .hero-title-btm {}
+.hero-col-left {
+    width: 50%;
+}
+
+.hero-header-div {}
+
+.hero-title-top {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.hero-title-btm {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.hero-header-div:before {}
 
 .hero-col-left .hero-pragrap {}
 
-.hero-col-left .hero-pragrap-btm {}
+p.hero-pragrap-btm {
+    font-size: 20px;
+}
 
-.hero-btn {}
+button.hero-btn {
+    font-size: 20px;
+    border: nore;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+}
+
+.hero-col-right {
+    width: 50%;
+}
+
+.hero-col-img {}
+
+img {
+    width: 100%;
+}
+
+
+/** Mission SECTION **/
+
+.future-plan {}
+
+.future-title {}
+
+.future-col-main {}
+
+.future-col-wrap {}
+
+.future-single {}
+
+.future-img {}
+
+.future-img img {}
+
+.future-inner-title {}
+
+.future-inner-pg {}
+
+
+/** TEAM SECTION **/
+
+.dv-team-section {}
+
+.dv-team-wrap {}
+
+.dv-team-single {}
+
+.dv-team-img {}
+
+.dv-team-inner-top {}
+
+.dv-team-inner-btm {}
+
+.dv-team-pg {}
+
+#before-bg:before {}
+
+#after-bg:after {}
+
+
+/** GLOBAL SECTION **/
