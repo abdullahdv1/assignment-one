@@ -4,3 +4,19 @@ body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+.hero-section {}
+
+.inner-hero-section {}
+
+.hero-col-left {}
+
+.hero-col-left .hero-title-top {}
+
+.hero-col-left .hero-title-btm {}
+
+.hero-col-left .hero-pragrap {}
+
+.hero-col-left .hero-pragrap-btm {}
+
+.hero-btn {}
