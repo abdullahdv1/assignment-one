@@ -28,7 +28,7 @@ section.hero-section {
 
 .hero-col-left {
     width: 50%;
-    margin-top: 190px;
+    margin-top: 200px;
 }
 
 .hero-header-div {
@@ -54,17 +54,13 @@ section.hero-section {
 
 .hero-col-left .hero-pragrap {
     font-size: 20px;
-    padding-right: 100px;
+    padding-right: 34%;
     margin-top: 50px;
 }
 
 p.hero-pragrap-btm {
     font-size: 20px;
 }
-
-.hero-header-div:before {}
-
-.hero-col-left .hero-pragrap {}
 
 button.hero-btn {
     font-size: 20px;
@@ -74,6 +70,7 @@ button.hero-btn {
     border-radius: 5px;
     background: #ff5959;
     color: white;
+    cursor: pointer;
 }
 
 .hero-col-right {
@@ -99,15 +96,12 @@ img {
     color: #484566;
     font-size: 45px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .future-title span {
     color: #ffa850;
 }
-
-.future-col-main {}
-
-.future-col-wrap {}
 
 .future-single {
     width: 28%;
@@ -160,10 +154,6 @@ img {
 .dv-team-section {
     padding: 80px 0px;
 }
-
-.dv-team-wrap {}
-
-.dv-team-single {}
 
 .dv-team-img {
     width: 100%;
@@ -238,8 +228,6 @@ img {
     margin: auto;
 }
 
-.priceing-area-wrap {}
-
 .price-single {
     width: 20%;
     background: white;
@@ -277,8 +265,6 @@ img {
     padding: 15px 0px;
 }
 
-.price-single button {}
-
 
 /** FOOTER SECTION **/
 
@@ -300,3 +286,5 @@ img {
 .footer-section p {
     color: #e2e4ea;
 }
+
+<button class="hero-btn">Explore Now</button>
