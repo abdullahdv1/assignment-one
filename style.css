@@ -8,6 +8,11 @@ body {
     }
 }
 
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /** HERO SECTION **/
 
@@ -23,9 +28,17 @@ section.hero-section {
 
 .hero-col-left {
     width: 50%;
+    margin-top: 190px;
 }
 
-.hero-header-div {}
+.hero-header-div {
+    margin-bottom: -25px;
+    padding-left: 4px;
+    border-left: 5px solid #ff5959;
+    border-radius: 4px;
+    height: 132px;
+    line-height: 41px;
+}
 
 .hero-title-top {
     font-size: 60px;
@@ -36,24 +49,30 @@ section.hero-section {
 .hero-title-btm {
     font-size: 60px;
     font-weight: 500;
-    margin-top: 0;
+    color: #cfa681;
+}
+
+.hero-col-left .hero-pragrap {
+    font-size: 20px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+p.hero-pragrap-btm {
+    font-size: 20px;
 }
 
 .hero-header-div:before {}
 
 .hero-col-left .hero-pragrap {}
 
-p.hero-pragrap-btm {
-    font-size: 20px;
-}
-
 button.hero-btn {
     font-size: 20px;
     border: nore;
     border: none;
     padding: 10px 20px;
-    border-radius: 10px;
-    background: red;
+    border-radius: 5px;
+    background: #ff5959;
     color: white;
 }
 
@@ -61,7 +80,9 @@ button.hero-btn {
     width: 50%;
 }
 
-.hero-col-img {}
+.hero-col-img {
+    width: 80%;
+}
 
 img {
     width: 100%;
@@ -70,44 +91,212 @@ img {
 
 /** Mission SECTION **/
 
-.future-plan {}
+.future-plan {
+    padding: 80px 0px;
+}
 
-.future-title {}
+.future-title {
+    color: #484566;
+    font-size: 45px;
+    text-align: center;
+}
+
+.future-title span {
+    color: #ffa850;
+}
 
 .future-col-main {}
 
 .future-col-wrap {}
 
-.future-single {}
+.future-single {
+    width: 28%;
+    background: red;
+    border-radius: 20px;
+    padding: 29px 33px;
+    box-sizing: border-box;
+}
 
-.future-img {}
+.future-img {
+    width: 40%;
+}
 
-.future-img img {}
+.future-img img {
+    width: 100%;
+}
 
 .future-inner-title {}
 
-.future-inner-pg {}
+.future-inner-pg {
+    color: #969184;
+}
+
+#future-single-left {
+    background-color: #edf5f6;
+}
+
+#future-single-center {
+    background-color: #ffeeee;
+}
+
+#future-single-right {
+    background-color: #fff4d6;
+}
+
+.inner-hero-section.space-around::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(shape-1.png);
+    wih: 500px;
+    display: block;
+    width: 500px;
+    height: auto;
+}
 
 
 /** TEAM SECTION **/
 
-.dv-team-section {}
+.dv-team-section {
+    padding: 80px 0px;
+}
 
 .dv-team-wrap {}
 
 .dv-team-single {}
 
-.dv-team-img {}
+.dv-team-img {
+    width: 100%;
+}
 
-.dv-team-inner-top {}
+.dv-team-inner-top {
+    font-size: 30px;
+    margin-bottom: -30px;
+}
 
-.dv-team-inner-btm {}
+.dv-team-inner-btm {
+    font-size: 40px;
+    padding: -19px -0px;
+    margin-bottom: 20px;
+}
 
 .dv-team-pg {}
 
-#before-bg:before {}
+.before-bg {
+    background-image: url(./img/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left 36%;
+    background-size: 283px;
+    margin-rihgt: 67px;
+    background-position-x: 7%;
+}
 
-#after-bg:after {}
+.after-bg {
+    background-image: url(./img/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right 97%;
+    background-size: 167px;
+    margin-rihgt: 67px;
+    background-position-x: 91%;
+}
+
+.width-40 {
+    width: 35%;
+}
+
+.width-60 {
+    width: 56%;
+    margin-top: 115px;
+}
 
 
-/** GLOBAL SECTION **/
+/** PRICING SECTION **/
+
+.pricing-section {
+    width: 100%;
+    margin: auto;
+}
+
+.pricing-title-div {
+    width: 100%;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.pricing-title {
+    font-size: 40px;
+}
+
+.pricing-pg {
+    font-size: 25px;
+    color: #ff5959;
+    margin-top: -23px;
+}
+
+.price-area {
+    width: 80%;
+    margin: auto;
+}
+
+.priceing-area-wrap {}
+
+.price-single {
+    width: 20%;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px 10px;
+    box-shadow: 0px -1px 10px #7c6f6f;
+}
+
+.price-single h5 {
+    font-size: 20px;
+    color: #5a5656;
+}
+
+.price-single h1 {
+    font-size: 60px;
+    color: #ff5959;
+    margin: -20px 0px;
+}
+
+.price-single h1 span {
+    font-size: 40px;
+    margin-bottom: -50px;
+    display: block;
+    margin-left: -112px;
+}
+
+.price-single ul {
+    padding-left: 0px;
+}
+
+.price-single ul li {
+    list-style: none;
+    border-bottom: 2px solid #fbfbfb;
+    padding: 15px 0px;
+}
+
+.price-single button {}
+
+
+/** FOOTER SECTION **/
+
+.footer-section {
+    background-color: #181818;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.footer-section h1 {
+    color: white;
+}
+
+.footer-section h1 span {
+    color: #ff5959;
+}
+
+.footer-section p {
+    color: #e2e4ea;
+}
