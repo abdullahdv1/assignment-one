@@ -3,9 +3,10 @@ body {
     padding: 0;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    img {
-        width: 100%;
-    }
+}
+
+img {
+    width: 100%;
 }
 
 .space-around {
@@ -119,8 +120,6 @@ img {
     width: 100%;
 }
 
-.future-inner-title {}
-
 .future-inner-pg {
     color: #969184;
 }
@@ -135,17 +134,6 @@ img {
 
 #future-single-right {
     background-color: #fff4d6;
-}
-
-.inner-hero-section.space-around::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(shape-1.png);
-    wih: 500px;
-    display: block;
-    width: 500px;
-    height: auto;
 }
 
 
@@ -170,14 +158,11 @@ img {
     margin-bottom: 20px;
 }
 
-.dv-team-pg {}
-
 .before-bg {
     background-image: url(./img/shape-1.png);
     background-repeat: no-repeat;
     background-position: left 36%;
     background-size: 283px;
-    margin-rihgt: 67px;
     background-position-x: 7%;
 }
 
@@ -186,7 +171,6 @@ img {
     background-repeat: no-repeat;
     background-position: right 97%;
     background-size: 167px;
-    margin-rihgt: 67px;
     background-position-x: 91%;
 }
 
@@ -286,5 +270,3 @@ img {
 .footer-section p {
     color: #e2e4ea;
 }
-
-<button class="hero-btn">Explore Now</button>
