@@ -63,7 +63,7 @@ p.hero-pragrap-btm {
     font-size: 20px;
 }
 
-button.hero-btn {
+a.hero-btn {
     font-size: 20px;
     border: nore;
     border: none;
@@ -72,6 +72,7 @@ button.hero-btn {
     background: #ff5959;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .hero-col-right {
